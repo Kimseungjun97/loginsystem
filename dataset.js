@@ -32,10 +32,10 @@ d1.set_img(0,{imgtitle:"1.1 요구사항명세서",imgurl:"https://drive.google.
 
 
 d1.set_content("목표 시스템 개발을 위한 적정한 언어를 선정하고 라이선스와 향후 지원사항을 참고하여 결정한다.")
-d1.set_img(1,{imgtitle:"1.2 개발언어선정",imgurl:"https://drive.google.com/file/d/1RsdvBpzcsuMoSGYg6bzYdZXiNmOuXtBJ/view?usp=drive_link",imglog:"자바언어기반 스프링프레임워크, html5, memberData file",sourceurl:"https://docs.google.com/document/d/1e_E-PyAc3xPwuNIgLZqztFUwEJ_0XoDpOBfLCskYOlk/edit?usp=drive_link"})//이미지타이틀
-d1.set_img(1,{imgtitle:"Spring Tool",imgurl:"https://drive.google.com/file/d/1jMaPaIrOyHZO3nyHyVmqhFEknYM-tfuX/view?usp=drive_link",imglog:"오픈소스 스프링프레임워크 v4.221",sourceurl:""})//이미지타이틀
-d1.set_img(1,{imgtitle:"Visual Studio Code",imgurl:"https://drive.google.com/file/d/1BqIjUnIsl5vQgMwqPGekWQw0adz_q-om/view?usp=drive_link",imglog:"오픈소스 스프링프레임워크 v4.221",sourceurl:""})//이미지타이틀
-d1.set_img(1,{imgtitle:"HeidiSQL",imgurl:"https://drive.google.com/file/d/1BbvSKFjKABwHLF6Ic4AWlyyDrx0mKvt8/view?usp=drive_link",imglog:"오픈소스 스프링프레임워크 v4.221",sourceurl:""})//이미지타이틀
+d1.set_img(1,{imgtitle:"1.2 개발언어선정",imgurl:"https://drive.google.com/file/d/1RsdvBpzcsuMoSGYg6bzYdZXiNmOuXtBJ/view?usp=drive_link",imglog:"자바언어기반 Spring Tool, Visual Studio Code, heidiSQL",sourceurl:"https://docs.google.com/document/d/1e_E-PyAc3xPwuNIgLZqztFUwEJ_0XoDpOBfLCskYOlk/edit?usp=drive_link"})//이미지타이틀
+d1.set_img(1,{imgtitle:"Spring Tool",imgurl:"https://drive.google.com/file/d/1jMaPaIrOyHZO3nyHyVmqhFEknYM-tfuX/view?usp=drive_link",imglog:"Spring Tool v4.27.0",sourceurl:""})//이미지타이틀
+d1.set_img(1,{imgtitle:"Visual Studio Code",imgurl:"https://drive.google.com/file/d/1BqIjUnIsl5vQgMwqPGekWQw0adz_q-om/view?usp=drive_link",imglog:"Visual Studio Code v1.96.4",sourceurl:""})//이미지타이틀
+d1.set_img(1,{imgtitle:"HeidiSQL",imgurl:"https://drive.google.com/file/d/1BbvSKFjKABwHLF6Ic4AWlyyDrx0mKvt8/view?usp=drive_link",imglog:"heidiSQL v12.8.0.6908",sourceurl:""})//이미지타이틀
 
 
 d1.set_content("코딩개발도구와 테스트 및 빌드, 패키징, 배포등 개발 전반에 대한 필요한 환경을 설정한다.")
