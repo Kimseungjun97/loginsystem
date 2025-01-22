@@ -26,7 +26,7 @@ class DataSet{
 
 let d1 = new DataSet("개발환경구축")//메인 타이틀 //메뉴번호
 d1.set_content("사용자의 로그인 기능을 구현하여 로그인 사용자와 비로그인 사용자에 제공 서비스를 구분한다.")//서브 타이틀
-d1.set_img(0,{imgtitle:"Test용 이미지",imgurl:"https://drive.google.com/file/d/1dzi1OlOL1RxVevRGzA3SpkwqTvAOckkD/view?usp=drive_link",imglog:"Test를 위해 이미지를 업로드 해보았습니다.",sourceurl:"https://docs.google.com/document/d/1QRlBgw9ikWA6ibnaokX77xwuoYcilPMl5GhDTCEG4Bo/edit?usp=drive_link"})//이미지타이틀
+d1.set_img(0,{imgtitle:"Test용 이미지",imgurl:"https://drive.google.com/file/d/1_b_BViI-nn1iG5StanUV3CqjsVdD2JbR/view?usp=drive_link",imglog:"Test를 위해 이미지를 업로드 해보았습니다.",sourceurl:"https://docs.google.com/document/d/1QRlBgw9ikWA6ibnaokX77xwuoYcilPMl5GhDTCEG4Bo/edit?usp=drive_link"})//이미지타이틀
 
 
 
