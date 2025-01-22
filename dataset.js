@@ -2,6 +2,8 @@
 //메뉴 생성기 종료 E==============================
 //데이터 아키텍처{sub_title:"",sub_content:"",sub_img:[],user_fill:""}
 let data_sets=[]
+
+
 class DataSet{
 	constructor(sub_title,menuNum){this.sub_title=sub_title}
 	user_fill=""
@@ -12,7 +14,7 @@ class DataSet{
 		if(!this.sub_img[num]){this.sub_img[num]=[]}
 		this.sub_img[num].push(obj)
 	}
-	set_fill(ufill){this.user_fill=ufill}	 
+	set_fill(ufill){this.user_fill=ufill} 	 
 }
 //******************************* build describe ************************************************ 
 // 포트폴리오제시항목의 1. 
@@ -44,6 +46,7 @@ d1.set_img(2,{imgtitle:"형상관리도구 git",imgurl:"https://drive.google.com
 
 d1.set_fill("서버의 보안성과 각 수행기능별 패턴을 분리하기 위해 Spring WAS 와 사용자 View 기능을 위해 웹브라우져에서 일반적인 작동이 가능한 HTML5 를 구현하며 데이터베이스 연동 대신 파일로 회원목록 저장")//사용자 에필로그
 data_sets.push(d1)
+
 
 // menu2 =============================================================
 let d2 = new DataSet("공통모듈구현")//메인타이틀
