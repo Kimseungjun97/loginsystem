@@ -59,9 +59,11 @@ d2.set_img(2,{imgtitle:"2.3 회원가입 성공",imgurl:"https://drive.google.co
 d2.set_img(2,{imgtitle:"2.3 로그인 성공",imgurl:"https://drive.google.com/file/d/1i0YH_mnQ2QMl8FfxKnGWunz9xBqqTte0/view?usp=drive_link",imglog:"로그인에 성공하였습니다.",sourceurl:"https://docs.google.com/document/d/1QCzhmIHE0CPg5CZkfc3XXcrBc3ECCk_DGQhbTOM1JoA/edit?usp=drive_link"})//이미지타이틀
 d2.set_img(2,{imgtitle:"2.3 로그아웃 성공",imgurl:"https://drive.google.com/file/d/1GTJOF9orMjG-Nb3oPLDjwMy2Kf6e9KBo/view?usp=drive_link",imglog:"로그아웃에 성공하였습다.",sourceurl:"https://docs.google.com/document/d/1QCzhmIHE0CPg5CZkfc3XXcrBc3ECCk_DGQhbTOM1JoA/edit?usp=drive_link"})//이미지타이틀
 
+d2.set_content("테스트 결과보고서")//서브 타이틀
+d2.set_img(3,{imgtitle:"2.4 프로젝트 이름",imgurl:"https://drive.google.com/file/d/1XC2JjCTRnxJDO4eKfd4viRap2AZ7Vdt5/view?usp=drive_link",imglog:"프로젝트 이름",sourceurl:""})//이미지타이틀
+d2.set_img(3,{imgtitle:"2.4 버전",imgurl:"https://drive.google.com/file/d/1jMaPaIrOyHZO3nyHyVmqhFEknYM-tfuX/view?usp=drive_link",imglog:"버전",sourceurl:""})//이미지타이틀
 
-
-d2.set_fill("서버의 보안성과 각 수행기능별 패턴을 분리하기 위해 Spring WAS 와 사용자 View 기능을 위해 웹브라우져에서 일반적인 작동이 가능한 HTML5 를 구현하며 데이터베이스 연동 대신 파일로 회원목록 저장")//사용자 에필로그
+d2.set_fill("서버의 실행을 위해 여러 테스트를 수행")//사용자 에필로그
 data_sets.push(d2)
 // menu3 =============================================================
 let d3 = new DataSet("서버프로그램구현")//메인타이틀
