@@ -48,9 +48,16 @@ data_sets.push(d1)
 // menu2 =============================================================
 let d2 = new DataSet("공통모듈구현")//메인타이틀
 
-d2.set_content("사용자의 편의에 맞게 UI 구성 및 소스코드")//서브 타이틀
-d2.set_img(0,{imgtitle:"2.1 로그인 및 로그아웃",imgurl:"https://drive.google.com/file/d/1t3bK5srDf_QR8WCuSpkYca8Htw0E8Bw3/view?usp=drive_link",imglog:"회원가입을 위해 작성해보았습니다..",sourceurl:"https://docs.google.com/document/d/1rNgWAcadIBPlY_Gf3ghb3X9uj8vFVvCZJ-OlRF5DKQg/edit?usp=sharing"})//이미지타이틀
+d2.set_content("회원가입 및 로그인, 로그아웃")//서브 타이틀
+d2.set_img(0,{imgtitle:"2.1 회원가입 및 로그인,로그아웃",imgurl:"https://drive.google.com/file/d/1t3bK5srDf_QR8WCuSpkYca8Htw0E8Bw3/view?usp=drive_link",imglog:"회원가입을 위해 작성해보았습니다..",sourceurl:"https://docs.google.com/document/d/1rNgWAcadIBPlY_Gf3ghb3X9uj8vFVvCZJ-OlRF5DKQg/edit?usp=sharing"})//이미지타이틀
 
+d2.set_content("테스트케이스")//서브 타이틀
+d2.set_img(1,{imgtitle:"2.2 테스트 케이스",imgurl:"https://drive.google.com/file/d/1i5JIgLe-Xjo7sa-AgNc8aT-Mc2WaLJVr/view?usp=drive_link",imglog:"회원가입에서 테스트를 해보았습니다.",sourceurl:"https://docs.google.com/document/d/1QCzhmIHE0CPg5CZkfc3XXcrBc3ECCk_DGQhbTOM1JoA/edit?usp=drive_link"})//이미지타이틀
+
+d2.set_content("단위테스트")//서브 타이틀
+d2.set_img(2,{imgtitle:"2.3 회원가입 성공",imgurl:"https://drive.google.com/file/d/1t3bK5srDf_QR8WCuSpkYca8Htw0E8Bw3/view?usp=drive_link",imglog:"회원가입에 성공하였습니다.",sourceurl:"https://docs.google.com/document/d/1QCzhmIHE0CPg5CZkfc3XXcrBc3ECCk_DGQhbTOM1JoA/edit?usp=drive_link"})//이미지타이틀
+d2.set_img(2,{imgtitle:"2.3 로그인 성공",imgurl:"https://drive.google.com/file/d/1i0YH_mnQ2QMl8FfxKnGWunz9xBqqTte0/view?usp=drive_link",imglog:"로그인에 성공하였습니다.",sourceurl:"https://docs.google.com/document/d/1QCzhmIHE0CPg5CZkfc3XXcrBc3ECCk_DGQhbTOM1JoA/edit?usp=drive_link"})//이미지타이틀
+d2.set_img(2,{imgtitle:"2.3 로그아웃 성공",imgurl:"https://drive.google.com/file/d/1GTJOF9orMjG-Nb3oPLDjwMy2Kf6e9KBo/view?usp=drive_link",imglog:"로그아웃에 성공하였습다.",sourceurl:"https://docs.google.com/document/d/1QCzhmIHE0CPg5CZkfc3XXcrBc3ECCk_DGQhbTOM1JoA/edit?usp=drive_link"})//이미지타이틀
 
 
 
