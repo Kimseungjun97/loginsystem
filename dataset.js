@@ -49,21 +49,10 @@ data_sets.push(d1)
 let d2 = new DataSet("공통모듈구현")//메인타이틀
 
 d2.set_content("사용자의 편의에 맞게 UI 구성 및 소스코드")//서브 타이틀
-d2.set_img(0,{imgtitle:"2.1 공통모듈 구현",imgurl:"https://drive.google.com/file/d/1_b_BViI-nn1iG5StanUV3CqjsVdD2JbR/view?usp=drive_link",imglog:"한눈에 보기 편하기 위해 이미지를 업로드 해보았습니다.",sourceurl:"https://docs.google.com/document/d/1QRlBgw9ikWA6ibnaokX77xwuoYcilPMl5GhDTCEG4Bo/edit?usp=drive_link"})//이미지타이틀
+d2.set_img(0,{imgtitle:"2.1 로그인 및 로그아웃",imgurl:"https://drive.google.com/file/d/1t3bK5srDf_QR8WCuSpkYca8Htw0E8Bw3/view?usp=drive_link",imglog:"회원가입을 위해 작성해보았습니다..",sourceurl:"https://docs.google.com/document/d/1rNgWAcadIBPlY_Gf3ghb3X9uj8vFVvCZJ-OlRF5DKQg/edit?usp=sharing"})//이미지타이틀
 
 
-d2.set_content("목표 시스템 개발을 위한 적정한 언어를 선정하고 라이선스와 향후 지원사항을 참고하여 결정한다.")
-d2.set_img(1,{imgtitle:"1.2 개발언어선정",imgurl:"https://drive.google.com/file/d/1bg1r2gRqmJrkHZ7TkyAZUiXTWG_Smq3x/view?usp=drive_link",imglog:"자바언어기반 Spring Tool, Visual Studio Code, heidiSQL",sourceurl:"https://docs.google.com/document/d/1e_E-PyAc3xPwuNIgLZqztFUwEJ_0XoDpOBfLCskYOlk/edit?usp=drive_link"})//이미지타이틀
-d2.set_img(1,{imgtitle:"Spring Tool",imgurl:"https://drive.google.com/file/d/1jMaPaIrOyHZO3nyHyVmqhFEknYM-tfuX/view?usp=drive_link",imglog:"Spring Tool v4.27.0",sourceurl:""})//이미지타이틀
-d2.set_img(1,{imgtitle:"Visual Studio Code",imgurl:"https://drive.google.com/file/d/1BqIjUnIsl5vQgMwqPGekWQw0adz_q-om/view?usp=drive_link",imglog:"Visual Studio Code v1.96.4",sourceurl:""})//이미지타이틀
-d2.set_img(1,{imgtitle:"HeidiSQL",imgurl:"https://drive.google.com/file/d/1BbvSKFjKABwHLF6Ic4AWlyyDrx0mKvt8/view?usp=drive_link",imglog:"heidiSQL v12.8.0.6908",sourceurl:""})//이미지타이틀
 
-
-d2.set_content("코딩개발도구와 테스트 및 빌드, 패키징, 배포등 개발 전반에 대한 필요한 환경을 설정한다.")
-d2.set_img(2,{imgtitle:"개발환경 구축 명세",imgurl:"https://drive.google.com/file/d/1mw6ZBtTbbZQYlfz1YQXCuTfoi-hnvfpg/view?usp=drive_link",imglog:"운영체제 및 개발에 필요한 환경을 고려하여 개발도구, 테스트도구, 빌드도구, 패키징도구, 형상관리도구등을 결정",sourceurl:"https://docs.google.com/document/d/1rNVbHnhYGoozaqX_RsD3cErmKYzGUMvba9ihxbP2CKk/edit?usp=drive_link"})//이미지타이틀
-d2.set_img(2,{imgtitle:"개발도구 Spring for Eclipse",imgurl:"https://drive.google.com/file/d/1cZjIfmsX8DRTvO9XoQyWKiVxMv6JsVJk/view?usp=drive_link",imglog:"자바 스프링 서버단 개발을 위한 도구",sourceurl:""})//이미지타이틀
-d2.set_img(2,{imgtitle:"빌드도구 gradle",imgurl:"https://drive.google.com/file/d/1ow7c4hIHefpRvtvVY4FZ-h4XPBITkX3B/view?usp=drive_link",imglog:"프로그램 빌드 및 외부 라이브러리 디펜더시를 위한 도구",sourceurl:""})//이미지타이틀
-d2.set_img(2,{imgtitle:"형상관리도구 git",imgurl:"https://drive.google.com/file/d/1qL0Y0k36IxZqoJaXGtD9Z1ICFigW_tt_/view?usp=drive_link",imglog:"프로그램의 전반적인 개발협업 및 버전관를 위한 도구",sourceurl:""})//이미지타이틀
 
 d2.set_fill("서버의 보안성과 각 수행기능별 패턴을 분리하기 위해 Spring WAS 와 사용자 View 기능을 위해 웹브라우져에서 일반적인 작동이 가능한 HTML5 를 구현하며 데이터베이스 연동 대신 파일로 회원목록 저장")//사용자 에필로그
 data_sets.push(d2)
