@@ -65,23 +65,39 @@ d2.set_img(3,{imgtitle:"2.4 버전",imgurl:"https://drive.google.com/file/d/1jMa
 
 d2.set_fill("서버의 실행을 위해 여러 테스트를 수행")//사용자 에필로그
 data_sets.push(d2)
+//d3.set_img(0,{imgtitle:"",imgurl:"",imglog:"",sourceurl:""})//이미지타이틀
 // menu3 =============================================================
 let d3 = new DataSet("서버프로그램구현")//메인타이틀
 d3.set_content("회원가입구현")//서브타이틀
+d3.set_img(0,{imgtitle:"회원가입하기",imgurl:"https://drive.google.com/file/d/1gBMCySsALVJj1oL9Ap9Drb5MJXllENWB/view?usp=drive_link",imglog:"회원가입폼",sourceurl:""})
+d3.set_img(0,{imgtitle:"가입정보수신",imgurl:"https://drive.google.com/file/d/1uHp7braBV_mw3ZX5xWngCmBlZ5CLEUR9/view?usp=drive_link",imglog:"회원 정보 수신",sourceurl:"https://github.com/Kimseungjun97/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})
+d3.set_img(0,{imgtitle:"정보입력",imgurl:"https://drive.google.com/file/d/1CK9eN58DDgVGFOXmPacPVB7Q78pAaUz4/view?usp=drive_link",imglog:"데이터베이스에 정보입력전 dao",sourceurl:"https://github.com/Kimseungjun97/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/dao/MemberDAOimpl.java"})
+d3.set_img(0,{imgtitle:"매퍼",imgurl:"https://drive.google.com/file/d/174qODmZdMEOu0A-YisCXl_4jZdda8fYz/view?usp=drive_link",imglog:"데이터베이스로 가입정보 쿼리",sourceurl:"https://github.com/Kimseungjun97/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/config/memberMapper.xml"})
+d3.set_img(0,{imgtitle:"가입완료",imgurl:"https://drive.google.com/file/d/1HTaaAxw145eoL-e4JiiQ5Z_P5z-54mEQ/view?usp=drive_link",imglog:"",sourceurl:""})
+d3.set_img(0,{imgtitle:"데이터베이스",imgurl:"https://drive.google.com/file/d/1xUawYLXrk_bq7sjdCyEGilLRbEvc5s_Y/view?usp=drive_link",imglog:"",sourceurl:""})
 d3.set_content("회원로그인구현")
+d3.set_img(1,{imgtitle:"로그인폼",imgurl:"https://drive.google.com/file/d/176Wif3JRWMUQTX0Kk6kkRARm-otTP6Ie/view?usp=drive_link",imglog:"로그인 정보 입력",sourceurl:""})
+d3.set_img(1,{imgtitle:"서버컨트롤",imgurl:"https://drive.google.com/file/d/11Xm_hGoS4pUTXtrrRrYuGd5hGWYD041C/view?usp=drive_link",imglog:"로그인 정보를 입력받는다.",sourceurl:"https://github.com/Kimseungjun97/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})
+d3.set_img(1,{imgtitle:"dao작동",imgurl:"https://drive.google.com/file/d/157KL49qnUl7p8oFfl5yoDRqhhbU83hxH/view?usp=drive_link",imglog:"로그인정보를 매퍼로 전달한다.",sourceurl:"https://github.com/Kimseungjun97/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/dao/MemberDAOimpl.java"})
+d3.set_img(1,{imgtitle:"매퍼",imgurl:"https://drive.google.com/file/d/1MWpTS6R7YMaxCnv_5xtKTrdGxLig7kTM/view?usp=drive_link",imglog:"데이터베이스쿼리",sourceurl:"https://github.com/Kimseungjun97/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/config/memberMapper.xml"})
+d3.set_img(1,{imgtitle:"로그인성공",imgurl:"https://drive.google.com/file/d/1HTaaAxw145eoL-e4JiiQ5Z_P5z-54mEQ/view?usp=drive_link",imglog:"로그인 성공페이지",sourceurl:""})
+d3.set_content("회원로그아웃구현")//서브타이틀
+d3.set_img(2,{imgtitle:"로그인 화면",imgurl:"https://drive.google.com/file/d/1mskfUUFuVNHbFFUVrR3lGaeC3piKLQ9v/view?usp=drive_link",imglog:"",sourceurl:""})
+d3.set_img(2,{imgtitle:"로그아웃 전달",imgurl:"https://drive.google.com/file/d/1W1aFkywXUt_euOs48vFOnQa6acrRZfT-/view?usp=drive_link",imglog:"",sourceurl:""})
+d3.set_img(2,{imgtitle:"세션해제",imgurl:"https://drive.google.com/file/d/19aAO6bYCYG8naCHQ2hCQGdQg-qiQgI1O/view?usp=drive_link",imglog:"",sourceurl:"https://github.com/Kimseungjun97/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})
+d3.set_img(2,{imgtitle:"로그아웃 결과",imgurl:"https://drive.google.com/file/d/1-XcfTtfzSqDfKdevRLlL0JO4ozU76utR/view?usp=drive_link",imglog:"",sourceurl:""})
 d3.set_content("회원리스트연동")
-d3.set_content("테스트케이스 작성")
-d3.set_content("목오브젝트생성 및 테스트 구현")
-d3.set_content("결과보고서 작성")
+d3.set_img(3,{imgtitle:"로그인상태",imgurl:"https://drive.google.com/file/d/1fGm405HTfRiVNZaPEOD0rKLupnN4wQUC/view?usp=drive_link",imglog:"",sourceurl:""})
+d3.set_img(3,{imgtitle:"서버에서 수신",imgurl:"https://drive.google.com/file/d/1IQr2IIZ0CJD1EiQjmmvAd9j9ewp1bH66/view?usp=drive_link",imglog:"",sourceurl:"https://github.com/Kimseungjun97/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})
+d3.set_img(3,{imgtitle:"dao",imgurl:"https://drive.google.com/file/d/1EaDlgJ2by58kNH6vn__diNb9z8VfcCDB/view?usp=drive_link",imglog:"",sourceurl:"https://github.com/Kimseungjun97/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/dao/MemberDAOimpl.java"})
+d3.set_img(3,{imgtitle:"최종리스트 수신",imgurl:"https://drive.google.com/file/d/1xE-_i-nSQsmFECLpCgoMCMn6KzsZFTkR/view?usp=drive_link",imglog:"",sourceurl:""})
 d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d3)
 
 // menu4 =============================================================
 let d4 = new DataSet("배치프로그램구현")//메인타이틀
-
 d4.set_content("배치스케줄구현")//서브타이틀
-
-d4.set_content("배치프로그램테스트 구현")
-
-d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
+d4.set_img(0,{imgtitle:"배치설치",imgurl:"https://drive.google.com/file/d/1JgS3SSwnsxwAnCLJC86KED3Lq9ah6vrh/view?usp=drive_link",imglog:"",sourceurl:""})
+d4.set_img(0,{imgtitle:"배치작업설정",imgurl:"https://drive.google.com/file/d/19kgb5SEkypK_sxyeoODLwCD5T8zX5-PO/view?usp=drive_link",imglog:"",sourceurl:"https://github.com/Kimseungjun97/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/job/BatchConfiguration.java"})
+d4.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d4)
